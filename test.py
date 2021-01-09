@@ -1,8 +1,18 @@
 
 
 print("Hello Git")
-a=2
-b=4
+import  numpy as np
+
+import matplotlib.pyplot as plt
 
 
-print(a+b)
+
+x = np.linspace(1,10)
+
+y = x**2
+
+
+plt.plot(x, y)
+
+
+plt.show()
